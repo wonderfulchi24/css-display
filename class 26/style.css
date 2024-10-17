@@ -1,0 +1,17 @@
+body{
+	counter-reset: cow;
+}
+
+h1{
+	counter-reset: goat;
+}
+
+h1::before{
+	counter-increment: cow;
+	content: counter(cow) ". ";
+}
+
+p::before{
+	counter-increment: goat;
+	content: counter(cow) ". "counter(goat) ". ";
+}

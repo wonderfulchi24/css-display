@@ -1,0 +1,19 @@
+.cow{
+	height: 200px;
+	width: 200px;
+	background-color: seagreen;
+	color: greenyellow;
+	font-size: 2em;
+	margin-bottom: 25px;
+	text-align: center;
+}
+body{
+	padding-left: 25%;
+	padding-right: 25%;
+}
+.goat{
+	position: sticky;
+	top: 200px;
+	
+
+}

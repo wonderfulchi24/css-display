@@ -1,0 +1,10 @@
+.milo{
+	min-height: 300px;
+	width: 300px;
+	background-color: red;
+	
+margin: 50px auto;
+outline: 50px inset green;
+border: 50px outset powderblue;
+outline-offset: 20px;
+}

@@ -1,0 +1,15 @@
+p{
+	font-size: 23px;
+	color: blueviolet;
+	text-align: justify;
+
+}
+
+img{
+	vertical-align: top;
+
+}
+
+#{
+	text-decoration: overline;
+}

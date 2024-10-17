@@ -1,0 +1,14 @@
+.box{
+	height: 200px;
+	width: 200px;
+	background: yellowgreen;
+	border: 20px solid transparent;
+	border-image: url(28.jpg) 20% round;
+	padding: 50px;
+	background-image: repeating-radial-gradient(red 20%, yellow 20%);
+}
+body{
+	background-image: url(28.jpg), url(28.jpg);
+	background-repeat: no-repeat,repeat;
+	background-size:  50p%,50%, cover,;
+}
